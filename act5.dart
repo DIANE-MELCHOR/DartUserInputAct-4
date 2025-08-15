@@ -1,24 +1,11 @@
-import 'dart:io';
+a = float(input("Enter 1st num: "))
+b = float(input("Enter 2nd num: "))
+c = float(input("Enter 3rd num: "))
+d = float(input("Enter 4th num: "))
 
-void main() {
-print("Enter afloating number:");
-double number = double.parse(stdin.readLineSync()!);
-print("The entered number is ${number}");
-
-
-
-int(input("Enter 1st number"));
-number2
-int(input("Enter 2nd number"));
-double? sum = number1 + number2;
-double? diff = number2
-double? multi = number2 * number2;
-double? divi = number2 / number2;
-double percent = number1 % number2;
-print("The entered sum is ${sum}");
-print("The entered sum is ${diff}");
-print("The entered sum is ${multi}");
-print("The entered sum is ${divi}");
-print("The entered sum is ${percent}");
-
-}
+print("\n= Here is the output =")
+print("1st + 3rd + 2nd * 1st =", a + c + b * a)
+print("2nd - 3rd / 1st =", b - c / a if a else "Undefined")
+print("4th + 1st * 4th =", d + a * d)
+print("1st / 2nd + 3rd * 4th =", a / b + c * d if b else "Undefined")
+print("4th + 2nd =", d + b)
